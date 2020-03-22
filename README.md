@@ -8,6 +8,12 @@
 
 <p align="center">“Sucesso não é o resultado de um jogo, mas o destino de uma jornada”!</blockquote>
 
+## :rocket: Resultado
+
+Além do que foi pedido no desafio, foi criada uma funcionalidade para adcionar novos Posts!
+
+![Resultado](.github/resultado.png)
+
 ## :rocket: Sobre o desafio
 
 Crie uma aplicação do zero utilizando **Webpack, Babel, Webpack Dev Server e ReactJS**.
@@ -79,9 +85,3 @@ posts.map(post => <Post key={post.id} data={post} />);
 ```js
 data.comments.map(comment => <Comment key={comment.id} data={comment} />);
 ```
-
-## :rocket: Resultado
-
-Além do que foi pedido no desafio, foi criada uma funcionalidade para adcionar novos Posts!
-
-![Resultado](.github/resultado.png)

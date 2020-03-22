@@ -79,7 +79,7 @@ nav > div span {
   border-radius: 16px;
 }
 
-.details {
+.post-header .details {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
@@ -135,4 +135,48 @@ nav > div span {
 
 .comment span {
   font-weight: bold;
+}
+
+.new-post {
+  display: flex;
+  align-items: center;
+  line-height: 16px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 20px 20px 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+}
+
+.new-post .details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3E3E3E;
+}
+
+.new-post .details input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-color: #9A9A9A;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+}
+.new-post .details button {
+  background-color: #4A90E2;
+  font-size: 16px;
+  border-radius: 3px;
+  border-color: #4A90E2;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }

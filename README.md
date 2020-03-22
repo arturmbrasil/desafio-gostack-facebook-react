@@ -82,4 +82,6 @@ data.comments.map(comment => <Comment key={comment.id} data={comment} />);
 
 ## :rocket: Resultado
 
+Além do que foi pedido no desafio, foi criada uma funcionalidade para adcionar novos Posts!
+
 ![Resultado](.github/resultado.png)

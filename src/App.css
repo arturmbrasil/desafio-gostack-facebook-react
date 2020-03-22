@@ -99,3 +99,11 @@ nav > div span {
   line-height: 13px;
   color: #9A9A9A;
 }
+
+.content {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3E3E3E;
+  margin-top: 15px;
+}
